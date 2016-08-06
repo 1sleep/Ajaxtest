@@ -1,0 +1,2 @@
+Ajax test.
+It is interesting.

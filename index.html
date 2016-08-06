@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ajax使用</title>
+</head>
+<body>
+	<div id="div1">
+		<h2>使用jquery Ajax修改文本内容</h2>
+	</div>
+	<button>获取外部内容</button>
+	<script src="js/jquery.js"></script>
+	<script>
+		$(function(){
+			$('button').click(function(){
+				$('#div1').load('test/test.txt');
+			});
+		});
+	</script>
+</body>
+</html>
